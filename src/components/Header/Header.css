@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(71, 66, 66, 0.055);
+    flex-direction: row;
+}
+
+#header-right {
+    display: flex; /* Utilise flexbox pour aligner les enfants horizontalement */
+    align-items: center; /* Centre verticalement les éléments */
+    gap: 10px; /* Ajoute un espacement entre les enfants */
+}

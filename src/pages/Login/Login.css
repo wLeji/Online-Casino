@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #9b9796, #8f7272);
+}
+
+.account-box {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(71, 66, 66, 0.055);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    margin: 0 auto;
+
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+
+}
+
+#button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.login-entries {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-gotoregister {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    gap: 10px;
+
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #3B3534;
+}
+
+#register-txt {
+    color: #ffffff;
+    text-decoration: none;
+}

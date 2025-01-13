@@ -1,0 +1,35 @@
+/* Home.css */
+
+body {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #9b9796, #8f7272);
+}
+
+.log-reg-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+    margin: 0 auto;
+
+    position: absolute;  /* ou fixed pour le garder toujours visible au même endroit */
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+
+}
+
+#button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
